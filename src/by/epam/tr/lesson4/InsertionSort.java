@@ -20,29 +20,29 @@ public class InsertionSort {
 		
 		for (int i = 1; i < ar.length; i++) {
 			
-            int rightNum = ar[i];
+			int rightNum = ar[i];
             
-            int j = i - 1;
+			int j = i - 1;
             
-            while(j >= 0 && rightNum < ar[j]) {
+           		while(j >= 0 && rightNum < ar[j]) {
             	
-                ar[j+1] = ar[j];
+           		     ar[j+1] = ar[j];
                 
-                j--;
-                
-            }
+        		     j--;
+                	
+     		        }
     
-            ar[j+1] = rightNum;
+   		        ar[j+1] = rightNum;
         
-        }
+    		}
 		
 		System.out.print("Sorted array: ");
 		
-        for(int argument: ar) {
+       		for(int argument: ar) {
         	
-        	System.out.print(argument + " ");
+        	 	System.out.print(argument + " ");
         	
-        }	
+     		}	
 
 	}
 
