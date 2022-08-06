@@ -62,16 +62,16 @@ public class Solution2 {
         
         else {
         	
-        	System.out.print("Zeros have indices: ");
+            System.out.print("Zeros have indices: ");
         	
-        	for(int zero: arZero) {
+            for(int zero: arZero) {
         	
-        		System.out.printf("{%2d}", zero);
+        		 System.out.printf("{%2d}", zero);
             
-        	}
+            }
         
-        }
+         }
       
-    }
+     }
    
 }
