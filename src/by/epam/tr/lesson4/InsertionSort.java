@@ -20,11 +20,11 @@ public class InsertionSort {
 		
 		for (int i = 1; i < ar.length; i++) {
 			
-            int leftNum = ar[i];
+            int rightNum = ar[i];
             
             int j = i - 1;
             
-            while(j >= 0 && leftNum < ar[j]) {
+            while(j >= 0 && rightNum < ar[j]) {
             	
                 ar[j+1] = ar[j];
                 
@@ -32,7 +32,7 @@ public class InsertionSort {
                 
             }
     
-            ar[j+1] = leftNum;
+            ar[j+1] = rightNum;
         
         }
 		
